@@ -1,7 +1,34 @@
-﻿  Gun.cpp
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.h(9,26): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.h(18,34): warning C4244:  'return': conversion from 'const int' to 'float', possible loss of data
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(28,40): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+﻿  Agent.cpp
+E:\GitHub\2D-Game-Engine\GameProject1\Agent.cpp(39,21): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\Agent.cpp(71,26): warning C4244:  'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\Agent.cpp(71,26): warning C4244:         with
+E:\GitHub\2D-Game-Engine\GameProject1\Agent.cpp(71,26): warning C4244:         [
+E:\GitHub\2D-Game-Engine\GameProject1\Agent.cpp(71,26): warning C4244:             T=float
+E:\GitHub\2D-Game-Engine\GameProject1\Agent.cpp(71,26): warning C4244:         ]
+  Bullet.cpp
+E:\GitHub\2D-Game-Engine\GameProject1\Agent.cpp(71,39): warning C4244:  'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\Agent.cpp(71,39): warning C4244:         with
+E:\GitHub\2D-Game-Engine\GameProject1\Agent.cpp(71,39): warning C4244:         [
+E:\GitHub\2D-Game-Engine\GameProject1\Agent.cpp(71,39): warning C4244:             T=float
+E:\GitHub\2D-Game-Engine\GameProject1\Agent.cpp(71,39): warning C4244:         ]
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.h(9,26): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.h(18,34): warning C4244:  'return': conversion from 'const int' to 'float', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.cpp(65,24): warning C4244:  '=': conversion from 'float' to 'T', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.cpp(65,24): warning C4244:         with
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.cpp(65,24): warning C4244:         [
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.cpp(65,24): warning C4244:             T=glm::i32
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.cpp(65,24): warning C4244:         ]
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.cpp(66,24): warning C4244:  '=': conversion from 'float' to 'T', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.cpp(66,24): warning C4244:         with
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.cpp(66,24): warning C4244:         [
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.cpp(66,24): warning C4244:             T=glm::i32
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.cpp(66,24): warning C4244:         ]
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.cpp(67,43): warning C4018:  '>=': signed/unsigned mismatch
+  Gun.cpp
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.cpp(68,40): warning C4018:  '>=': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.h(9,26): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.h(18,34): warning C4244:  'return': conversion from 'const int' to 'float', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\Gun.cpp(28,40): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\xmemory0(820,103): warning C4244:  'argument': conversion from 'float' to 'int', possible loss of data
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(639): message :  see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float&,const glm::vec2&,glm::vec<2,float,0>,float&>(_Alloc &,_Objty *const ,float &,const glm::vec2 &,glm::vec<2,float,0> &&,float &)' being compiled
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(639): message :         with
@@ -22,9 +49,60 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(657): message :         [
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(657): message :             _Ty=Bullet
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(657): message :         ]
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(33): message :  see reference to function template instantiation 'void std::vector<Bullet,std::allocator<_Ty>>::emplace_back<float&,const glm::vec2&,glm::vec<2,float,0>,float&>(float &,const glm::vec2 &,glm::vec<2,float,0> &&,float &)' being compiled
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(33): message :         with
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(33): message :         [
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(33): message :             _Ty=Bullet
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(33): message :         ]
-  GameProject1.vcxproj -> E:\Users\crusty\source\repos\zombiegame_OpenglSdl\Debug\GameProject1.exe
+  Human.cpp
+E:\GitHub\2D-Game-Engine\GameProject1\Gun.cpp(33): message :  see reference to function template instantiation 'void std::vector<Bullet,std::allocator<_Ty>>::emplace_back<float&,const glm::vec2&,glm::vec<2,float,0>,float&>(float &,const glm::vec2 &,glm::vec<2,float,0> &&,float &)' being compiled
+E:\GitHub\2D-Game-Engine\GameProject1\Gun.cpp(33): message :         with
+E:\GitHub\2D-Game-Engine\GameProject1\Gun.cpp(33): message :         [
+E:\GitHub\2D-Game-Engine\GameProject1\Gun.cpp(33): message :             _Ty=Bullet
+E:\GitHub\2D-Game-Engine\GameProject1\Gun.cpp(33): message :         ]
+E:\GitHub\2D-Game-Engine\GameProject1\Human.cpp(14,39): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Level.cpp
+E:\GitHub\2D-Game-Engine\GameProject1\Human.cpp(35,39): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\Level.cpp(42,20): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\Level.cpp(43,21): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\Level.cpp(76,32): warning C4244:  '=': conversion from 'int' to 'T', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\Level.cpp(76,32): warning C4244:         with
+E:\GitHub\2D-Game-Engine\GameProject1\Level.cpp(76,32): warning C4244:         [
+E:\GitHub\2D-Game-Engine\GameProject1\Level.cpp(76,32): warning C4244:             T=float
+E:\GitHub\2D-Game-Engine\GameProject1\Level.cpp(76,32): warning C4244:         ]
+  main.cpp
+E:\GitHub\2D-Game-Engine\GameProject1\Level.cpp(77,32): warning C4244:  '=': conversion from 'int' to 'T', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\Level.cpp(77,32): warning C4244:         with
+E:\GitHub\2D-Game-Engine\GameProject1\Level.cpp(77,32): warning C4244:         [
+E:\GitHub\2D-Game-Engine\GameProject1\Level.cpp(77,32): warning C4244:             T=float
+E:\GitHub\2D-Game-Engine\GameProject1\Level.cpp(77,32): warning C4244:         ]
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.h(9,26): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+  MainGame.cpp
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.h(18,34): warning C4244:  'return': conversion from 'const int' to 'float', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.h(9,26): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.h(18,34): warning C4244:  'return': conversion from 'const int' to 'float', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(12,26): warning C4305:  'initializing': truncation from 'double' to 'float'
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(20,20): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(57,24): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(71,20): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(80,67): warning C4305:  'argument': truncation from 'double' to 'float'
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(82,70): warning C4305:  'argument': truncation from 'double' to 'float'
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(110,19): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(116,20): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(122,20): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(125,25): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(131,20): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(133,25): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(138,22): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(161,20): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(176,20): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(180,21): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(211,22): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(256,58): warning C4244:  'argument': conversion from 'Sint32' to 'float', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(256,43): warning C4244:  'argument': conversion from 'Sint32' to 'float', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(322,20): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(330,20): warning C4018:  '<': signed/unsigned mismatch
+  Player.cpp
+E:\GitHub\2D-Game-Engine\GameProject1\MainGame.cpp(335,20): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.h(9,26): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+  Zombie.cpp
+E:\GitHub\2D-Game-Engine\GameProject1\Bullet.h(18,34): warning C4244:  'return': conversion from 'const int' to 'float', possible loss of data
+E:\GitHub\2D-Game-Engine\GameProject1\Zombie.cpp(30,34): warning C4390:  ';': empty controlled statement found; is this the intent?
+  Generating Code...
+E:\GitHub\2D-Game-Engine\GameProject1\Zombie.cpp(37,20): warning C4018:  '<': signed/unsigned mismatch
+  GameProject1.vcxproj -> E:\GitHub\2D-Game-Engine\Debug\GameProject1.exe

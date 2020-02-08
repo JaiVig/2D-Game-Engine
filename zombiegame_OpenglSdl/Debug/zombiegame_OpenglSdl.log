@@ -1,12 +1,12 @@
 ﻿  Bullet.cpp
   main.cpp
   MainGame.cpp
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\zombiegame_OpenglSdl\MainGame.cpp(54,15): warning C4305:  '+=': truncation from 'double' to 'float'
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\zombiegame_OpenglSdl\MainGame.cpp(56,21): warning C4018:  '<': signed/unsigned mismatch
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\zombiegame_OpenglSdl\MainGame.cpp(98,58): warning C4244:  'argument': conversion from 'Sint32' to 'float', possible loss of data
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\zombiegame_OpenglSdl\MainGame.cpp(98,43): warning C4244:  'argument': conversion from 'Sint32' to 'float', possible loss of data
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\zombiegame_OpenglSdl\MainGame.cpp(169,20): warning C4018:  '<': signed/unsigned mismatch
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\zombiegame_OpenglSdl\MainGame.cpp(189,29): warning C4244:  'initializing': conversion from 'Uint32' to 'float', possible loss of data
+E:\GitHub\2D-Game-Engine\zombiegame_OpenglSdl\MainGame.cpp(54,15): warning C4305:  '+=': truncation from 'double' to 'float'
+E:\GitHub\2D-Game-Engine\zombiegame_OpenglSdl\MainGame.cpp(56,21): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\zombiegame_OpenglSdl\MainGame.cpp(98,58): warning C4244:  'argument': conversion from 'Sint32' to 'float', possible loss of data
+E:\GitHub\2D-Game-Engine\zombiegame_OpenglSdl\MainGame.cpp(98,43): warning C4244:  'argument': conversion from 'Sint32' to 'float', possible loss of data
+E:\GitHub\2D-Game-Engine\zombiegame_OpenglSdl\MainGame.cpp(169,20): warning C4018:  '<': signed/unsigned mismatch
+E:\GitHub\2D-Game-Engine\zombiegame_OpenglSdl\MainGame.cpp(189,29): warning C4244:  'initializing': conversion from 'Uint32' to 'float', possible loss of data
   Generating Code...
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\zombiegame_OpenglSdl\MainGame.cpp(191,28): warning C4244:  '=': conversion from 'Uint32' to 'float', possible loss of data
-  zombiegame_OpenglSdl.vcxproj -> E:\Users\crusty\source\repos\zombiegame_OpenglSdl\Debug\zombiegame_OpenglSdl.exe
+E:\GitHub\2D-Game-Engine\zombiegame_OpenglSdl\MainGame.cpp(191,28): warning C4244:  '=': conversion from 'Uint32' to 'float', possible loss of data
+  zombiegame_OpenglSdl.vcxproj -> E:\GitHub\2D-Game-Engine\Debug\zombiegame_OpenglSdl.exe

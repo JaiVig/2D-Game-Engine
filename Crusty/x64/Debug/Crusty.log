@@ -5,8 +5,8 @@
   ImageLoader.cpp
   InputManager.cpp
   IOManager.cpp
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\Crusty\Error.cpp(11,3): warning C4551:  function call missing argument list
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\Crusty\IOManager.cpp(15,16): warning C4244:  'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+E:\GitHub\2D-Game-Engine\Crusty\Error.cpp(11,3): warning C4551:  function call missing argument list
+E:\GitHub\2D-Game-Engine\Crusty\IOManager.cpp(15,16): warning C4244:  'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
   picoPNG.cpp
   ResourceManager.cpp
   Sprite.cpp
@@ -15,5 +15,7 @@ E:\Users\crusty\source\repos\zombiegame_OpenglSdl\Crusty\IOManager.cpp(15,16): w
   Timing.cpp
   Windows.cpp
   Generating Code...
-E:\Users\crusty\source\repos\zombiegame_OpenglSdl\Crusty\IOManager.cpp(19,27): warning C4244:  '-=': conversion from 'std::streamoff' to 'int', possible loss of data
-  Crusty.vcxproj -> E:\Users\crusty\source\repos\zombiegame_OpenglSdl\x64\Debug\Crusty.lib
+E:\GitHub\2D-Game-Engine\Crusty\IOManager.cpp(19,27): warning C4244:  '-=': conversion from 'std::streamoff' to 'int', possible loss of data
+opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+  Crusty.vcxproj -> E:\GitHub\2D-Game-Engine\x64\Debug\Crusty.lib
