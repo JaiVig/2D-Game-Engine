@@ -1,0 +1,30 @@
+﻿  Gun.cpp
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.h(9,26): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.h(18,34): warning C4244:  'return': conversion from 'const int' to 'float', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(28,40): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\xmemory0(820,103): warning C4244:  'argument': conversion from 'float' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(639): message :  see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float&,const glm::vec2&,glm::vec<2,float,0>,float&>(_Alloc &,_Objty *const ,float &,const glm::vec2 &,glm::vec<2,float,0> &&,float &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(639): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(639): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(639): message :             _Alloc=std::allocator<Bullet>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(639): message :             _Ty=Bullet,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(639): message :             _Objty=Bullet
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(639): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(644): message :  see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float&,const glm::vec2&,glm::vec<2,float,0>,float&>(_Alloc &,_Objty *const ,float &,const glm::vec2 &,glm::vec<2,float,0> &&,float &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(644): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(644): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(644): message :             _Alloc=std::allocator<Bullet>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(644): message :             _Ty=Bullet,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(644): message :             _Objty=Bullet
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(644): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(657): message :  see reference to function template instantiation 'void std::vector<Bullet,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<float&,const glm::vec2&,glm::vec<2,float,0>,float&>(float &,const glm::vec2 &,glm::vec<2,float,0> &&,float &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(657): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(657): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(657): message :             _Ty=Bullet
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(657): message :         ]
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(33): message :  see reference to function template instantiation 'void std::vector<Bullet,std::allocator<_Ty>>::emplace_back<float&,const glm::vec2&,glm::vec<2,float,0>,float&>(float &,const glm::vec2 &,glm::vec<2,float,0> &&,float &)' being compiled
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(33): message :         with
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(33): message :         [
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(33): message :             _Ty=Bullet
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(33): message :         ]
+  GameProject1.vcxproj -> E:\Users\crusty\source\repos\zombiegame_OpenglSdl\Debug\GameProject1.exe

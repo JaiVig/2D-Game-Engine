@@ -1,0 +1,3 @@
+agent.cpp (addded float a, changed texture from circle to zombie, changed the uv vec4)
+maingame.cpp(added float a and int frames into the draw function)
+zombie and human .cpp ( commented out the position update variable)

@@ -1,0 +1,7 @@
+﻿  MainGame.cpp
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\zombiegame_OpenglSdl\MainGame.cpp(54,15): warning C4305:  '+=': truncation from 'double' to 'float'
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\zombiegame_OpenglSdl\MainGame.cpp(98,58): warning C4244:  'argument': conversion from 'Sint32' to 'float', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\zombiegame_OpenglSdl\MainGame.cpp(98,43): warning C4244:  'argument': conversion from 'Sint32' to 'float', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\zombiegame_OpenglSdl\MainGame.cpp(189,29): warning C4244:  'initializing': conversion from 'Uint32' to 'float', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\zombiegame_OpenglSdl\MainGame.cpp(191,28): warning C4244:  '=': conversion from 'Uint32' to 'float', possible loss of data
+Crusty.lib(ResourceManager.obj) : fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'

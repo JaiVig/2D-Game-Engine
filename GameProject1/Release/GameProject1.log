@@ -1,0 +1,111 @@
+﻿  Agent.cpp
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Agent.cpp(39,21): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Agent.cpp(71,26): warning C4244:  'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Agent.cpp(71,26): warning C4244:         with
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Agent.cpp(71,26): warning C4244:         [
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Agent.cpp(71,26): warning C4244:             T=float
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Agent.cpp(71,26): warning C4244:         ]
+  Bullet.cpp
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Agent.cpp(71,39): warning C4244:  'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Agent.cpp(71,39): warning C4244:         with
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Agent.cpp(71,39): warning C4244:         [
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Agent.cpp(71,39): warning C4244:             T=float
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Agent.cpp(71,39): warning C4244:         ]
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.h(9,26): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.h(18,34): warning C4244:  'return': conversion from 'const int' to 'float', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.cpp(65,24): warning C4244:  '=': conversion from 'float' to 'T', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.cpp(65,24): warning C4244:         with
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.cpp(65,24): warning C4244:         [
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.cpp(65,24): warning C4244:             T=glm::i32
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.cpp(65,24): warning C4244:         ]
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.cpp(66,24): warning C4244:  '=': conversion from 'float' to 'T', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.cpp(66,24): warning C4244:         with
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.cpp(66,24): warning C4244:         [
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.cpp(66,24): warning C4244:             T=glm::i32
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.cpp(66,24): warning C4244:         ]
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.cpp(67,43): warning C4018:  '>=': signed/unsigned mismatch
+  Gun.cpp
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.cpp(68,40): warning C4018:  '>=': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.h(9,26): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.h(18,34): warning C4244:  'return': conversion from 'const int' to 'float', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(28,40): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\xmemory0(820,103): warning C4244:  'argument': conversion from 'float' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(639): message :  see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float&,const glm::vec2&,glm::vec<2,float,0>,float&>(_Alloc &,_Objty *const ,float &,const glm::vec2 &,glm::vec<2,float,0> &&,float &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(639): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(639): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(639): message :             _Alloc=std::allocator<Bullet>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(639): message :             _Ty=Bullet,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(639): message :             _Objty=Bullet
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(639): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(644): message :  see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float&,const glm::vec2&,glm::vec<2,float,0>,float&>(_Alloc &,_Objty *const ,float &,const glm::vec2 &,glm::vec<2,float,0> &&,float &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(644): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(644): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(644): message :             _Alloc=std::allocator<Bullet>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(644): message :             _Ty=Bullet,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(644): message :             _Objty=Bullet
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(644): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(657): message :  see reference to function template instantiation 'void std::vector<Bullet,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<float&,const glm::vec2&,glm::vec<2,float,0>,float&>(float &,const glm::vec2 &,glm::vec<2,float,0> &&,float &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(657): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(657): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(657): message :             _Ty=Bullet
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(657): message :         ]
+  Human.cpp
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(33): message :  see reference to function template instantiation 'void std::vector<Bullet,std::allocator<_Ty>>::emplace_back<float&,const glm::vec2&,glm::vec<2,float,0>,float&>(float &,const glm::vec2 &,glm::vec<2,float,0> &&,float &)' being compiled
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(33): message :         with
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(33): message :         [
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(33): message :             _Ty=Bullet
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Gun.cpp(33): message :         ]
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Human.cpp(14,39): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Level.cpp
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Human.cpp(35,39): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Level.cpp(42,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Level.cpp(43,21): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Level.cpp(76,32): warning C4244:  '=': conversion from 'int' to 'T', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Level.cpp(76,32): warning C4244:         with
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Level.cpp(76,32): warning C4244:         [
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Level.cpp(76,32): warning C4244:             T=float
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Level.cpp(76,32): warning C4244:         ]
+  main.cpp
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Level.cpp(77,32): warning C4244:  '=': conversion from 'int' to 'T', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Level.cpp(77,32): warning C4244:         with
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Level.cpp(77,32): warning C4244:         [
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Level.cpp(77,32): warning C4244:             T=float
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Level.cpp(77,32): warning C4244:         ]
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.h(9,26): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+  MainGame.cpp
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.h(18,34): warning C4244:  'return': conversion from 'const int' to 'float', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.h(9,26): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.h(18,34): warning C4244:  'return': conversion from 'const int' to 'float', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(12,26): warning C4305:  'initializing': truncation from 'double' to 'float'
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(20,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(57,24): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(71,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(80,67): warning C4305:  'argument': truncation from 'double' to 'float'
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(82,70): warning C4305:  'argument': truncation from 'double' to 'float'
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(109,19): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(115,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(121,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(124,25): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(130,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(132,25): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(137,22): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(160,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(175,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(179,21): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(210,22): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(255,58): warning C4244:  'argument': conversion from 'Sint32' to 'float', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(255,43): warning C4244:  'argument': conversion from 'Sint32' to 'float', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(320,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(326,20): warning C4018:  '<': signed/unsigned mismatch
+  Player.cpp
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\MainGame.cpp(331,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.h(9,26): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+  Zombie.cpp
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Bullet.h(18,34): warning C4244:  'return': conversion from 'const int' to 'float', possible loss of data
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Zombie.cpp(32,34): warning C4390:  ';': empty controlled statement found; is this the intent?
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\GameProject1\Zombie.cpp(39,20): warning C4018:  '<': signed/unsigned mismatch
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1455 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  GameProject1.vcxproj -> E:\Users\crusty\source\repos\zombiegame_OpenglSdl\Release\GameProject1.exe

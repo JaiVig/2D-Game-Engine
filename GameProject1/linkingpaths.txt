@@ -1,0 +1,15 @@
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\deps\SDL\include
+$(SolutionDir)
+
+E:\Users\crusty\source\repos\zombiegame_OpenglSdl\deps\SDL\lib\x86
+$(SolutionDir)Debug/
+
+SDL2.lib
+SDL2main.lib
+opengl32.lib
+Crusty.lib
+glew32.lib
+
+$(SolutionDir);$(IncludePath)
+
+$(SolutionDir)Debug/;$(LibraryPath)

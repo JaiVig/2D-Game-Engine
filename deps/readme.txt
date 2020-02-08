@@ -1,0 +1,1 @@
+it contails sdl and glew lib and import
